@@ -1,0 +1,11 @@
+{
+    "orders": [
+      {"order_id": "A102", "amount": 99.99, "status": "shipped"},
+      {"order_id": "A103", "amount": 120.75, "status": "cancelled"}
+    ],
+    "page": 2,
+    "page_size": 2,
+    "next_page": null,
+    "previous_page": 1,
+    "total_orders": 4
+  }

@@ -1,0 +1,32 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/api/v2/profile",
+      "headers": {
+        "X-Feature-Tracking": "false",
+        "X-Feature-NewFlow": "false"
+      }
+    },
+    "expected_response": {
+      "profile": {
+        "id": 101,
+        "name": "John Doe",
+        "preferences": {
+          "notifications": true,
+          "categories": [
+            {"main": "technology", "sub": ["ai", "cloud"]},
+            {"main": "books", "sub": ["fiction", "non-fiction"]}
+          ]
+        },
+        "activities": [
+          {
+            "activity": "login",
+            "events": [
+              {"timestamp": "2024-04-01T12:00:00Z", "device": "web"},
+              {"timestamp": "2024-04-02T14:00:00Z", "device": "mobile"}
+            ]
+          }
+        ]
+      }
+    }
+  }

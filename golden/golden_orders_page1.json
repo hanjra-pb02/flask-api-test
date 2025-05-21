@@ -1,0 +1,11 @@
+{
+    "orders": [
+      {"order_id": "A100", "amount": 250.5, "status": "shipped"},
+      {"order_id": "A101", "amount": 540.0, "status": "processing"}
+    ],
+    "page": 1,
+    "page_size": 2,
+    "next_page": 2,
+    "previous_page": null,
+    "total_orders": 4
+  }
